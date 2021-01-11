@@ -1,9 +1,128 @@
-<html>
-  <head>
-    <title>Web Laboratori d'eines i tècniques d'edició web</title>
-  </head>
-  <body>
-    <h1>Web</h1>
-    <p>Lorem ipsum dolor sit amet.</p>
-  </body>
+<!DOCTYPE html >
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Oscars Club</title>
+</head>
+
+<body>
+	<header class="container">
+        <div>
+            <a id="logo" href="index.html"><img src="img/oscarsclub-isologo.png"><strong>oscars</strong><span id='red'>club</span></a>
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="clubs-tematics.html">CLUBS TEMÀTICS</a></li>
+                    <li><a href="sessions-2020.html">SESSIONS 2020</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <a href=""><button type="button">Inicia Sessió</button></a>
+        </div>
+    </header>
+    
+	<main class="index">
+        <section>
+            <h1>Què és Oscars Club?</h1>
+            <p>Oscars Club organitza clubs virtuals de cinema de diversos gèneres i en
+                diferents llengües, per als amants del cinema que vulguin compartir
+                reflexions i debatre sobre les pel·lícules que els interessen sense
+                necessitat d'haver d'anar a un espai físic.
+            </p>
+        </section>
+        <section>
+            <h1>Com funciona?</h1>
+            <div class="wrapper">
+                <div>
+                    <figure>
+                        <img src="img/howto-register.png">
+                        <figcaption>Registra't</figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="img/howto-club.png">
+                        <figcaption>Inscriu-te en un club de cinema</figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="img/howto-film.png">
+                        <figcaption>Tria una pel·lícula</figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="img/howto-speech.png">
+                        <figcaption>Gaudeix del debat</figcaption>
+                    </figure>
+
+                </div>
+            </div>
+        </section>
+        <section>
+            <h1>Uneix-te al club</h1>
+            <div class="club">
+                <div>
+                   <p>Estem mirant la teva propera pel·lícula preferida.<br>T'ho perdràs?</p>
+                </div>
+                <div>
+                    <form>
+                        
+                        <input type="text" id="nom" placeholder="Nom" required><br>          
+                        <input type="email" id="mail" placeholder="Correu electrònic" required><br>
+                        <input type="password" id="pass" placeholder="Contrasenya" required><br>
+                        <p>INFORMACIÓ SOBRE PROTECCIÓ DE DADES DE <strong> OSCARS
+                            CLUB</strong>. Finalitats: recollida de dades per a la inscripció com a
+                            soci de l'interessat. <strong>Legitimació</strong>: Consentiment de l'interessat.
+                            <strong>Destinataris</strong>: No estan previstes cessions de dades a tercers,
+                            excepte obligació legal. <strong>Drets</strong>: Pot retirar el seu consentiment en
+                            qualsevol moment, així com accedir, rectificar, suprimir les seves
+                            dades i altres drets dirigint-se a oscarsclub@oscarsclub.org.
+                            <strong>Informació Addicional </strong>: Pot ampliar la informació en l'enllaç d'<a href="">Avís
+                            Legal</a> i <a href="">Política de privacitat</a>.</p>
+                        <label><input type="checkbox" id="cbox1" value="first_checkbox" required> He llegit i accepto la política de privacitat</label><br>
+                        <input type="submit" value="REGISTRA'M">      
+                        
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+	</main>
+
+	<footer id="footer">
+		<div>
+            <nav>
+                <ul>
+                    <li><a href="">Sobre nosaltres</a></li>
+                    <li><a href="">Avís Legal</a></li>
+                    <li><a href="">Política de privacitat</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Youtube</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+        <div>
+            <ul>
+                <li>© 2020 Jordi Bellés Solà</li>
+                <li>Icones <a href="https://www.flaticon.com">flaticon.com</a></li>
+                <li>Imatges <a href="https://unsplash.com">unsplash.com</a></li>
+            </ul>
+        </div>
+        <div>
+            <a id="amunt" href="#logo"><code>&xwedge;</code></a>
+        </div>
+	</footer>
+</body>
 </html>
