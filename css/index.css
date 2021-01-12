@@ -44,11 +44,6 @@ form p{
     font-size: 0.7em;
 }
 
-form p a{
-    text-decoration: none;
-    color:rgb(155, 23, 0);
-}
-
 input[type="text"],input[type="email"],input[type="password"]{
     width: 100%;
 }

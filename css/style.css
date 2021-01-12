@@ -16,6 +16,7 @@ header, #footer{
 
 a{
     text-decoration: none;
+    color: rgb(155, 23, 0);
 }
 
 .container {
@@ -47,7 +48,7 @@ nav a.active{
 }
 
 #red{
-    color: #A01127;;
+    color: rgb(155, 23, 0);
     font-style: italic;
 }
 
@@ -172,6 +173,7 @@ main{
     color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
+    padding-top: 4vh;
 }
 
 #footer div{
@@ -233,11 +235,11 @@ main{
 
 #footer div:nth-of-type(3){
     display: flex;
-    align-items: right;
+    align-items: center;
     justify-content: flex-end;
     font-size: 2em;
-    padding-bottom: 1vh;
-   
+    padding: 0;
+    padding-bottom: 1vh;   
 }
 
 @media screen and (max-width: 600px){
