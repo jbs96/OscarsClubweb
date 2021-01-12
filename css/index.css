@@ -1,0 +1,101 @@
+main.index section{
+    margin-bottom: 5vh;
+}
+
+main.index section:nth-of-type(1) p{
+    margin-right: 15vw;
+    margin-left: 15vw;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-flow: row wrap;
+}
+
+.wrapper figure img{
+    width: 8vw;
+}
+
+.wrapper figcaption{
+    width: 15vh;
+}
+
+main.index section:nth-of-type(3) div.unio{
+    
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    flex-flow: row wrap;
+    gap: 1vw;
+}
+
+main.index section:nth-of-type(3) div.unio div:nth-of-type(1){
+    flex: 1;
+}
+
+main.index section:nth-of-type(3) div.unio div:nth-of-type(2){
+    flex: 1;
+}
+
+
+form p{
+    font-size: 0.7em;
+}
+
+form p a{
+    text-decoration: none;
+    color:rgb(155, 23, 0);
+}
+
+input[type="text"],input[type="email"],input[type="password"]{
+    width: 100%;
+}
+
+label{
+    font-size: 0.9em;
+}
+
+input[type="submit"]{
+    margin-top: 1vh;
+}
+
+input[type="submit"]{
+    background-color: rgb(155, 23, 0);
+	padding: 10px 25px;
+	color: rgb(255, 255, 255);
+    border: 0;
+    cursor: pointer;
+    width: auto;
+}
+
+@media screen and (max-width: 600px){
+    main.index{
+        margin: 0;
+    }
+
+    main.index section:nth-of-type(1) p{
+        margin: 0 3vw;
+    }
+    main.index .wrapper{
+        text-align: center;
+        flex-flow: column wrap;
+    }
+
+    main.index .wrapper figure img{
+        width: 30vw;
+    }
+    main.index .wrapper figcaption{
+        font-size: 1rem;
+        width: auto;
+        padding: 0 5vh;
+    }
+    main.index section:nth-of-type(3) div.unio{
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        flex-flow: column wrap;
+        margin: 0 3vw;
+    }
+}
