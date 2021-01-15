@@ -1,0 +1,25 @@
+
+.detall nav{
+    margin: 0;
+    text-align: left;
+}
+
+.detall nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.detall nav li{
+   
+    display: inline-block;
+}
+
+
+.detall nav li:first-child::before{
+    content: '';
+}
+
+.detall nav li:last-child{
+    color: rgba(28,28,28,.5)
+}
