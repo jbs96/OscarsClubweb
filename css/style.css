@@ -10,7 +10,7 @@ body {
 
 /* HEADER */
 
-header, #footer{
+header, #footer, form, aside ul, .content h1, .head, .detall nav{
     font-family: 'Open Sans', sans-serif;
 } 
 
@@ -29,7 +29,7 @@ a{
 }
 
 nav a{
-    font-weight: bold;
+    font-weight: bold 700;
     color:rgb(28, 28, 28);
     text-decoration: none;
 }
@@ -316,6 +316,10 @@ main.sessions section:nth-of-type(2){
 
 .cartells footer p{
     margin: 0 0 0.5vh 0.5vw;
+}
+
+.cartells footer a:hover{
+    opacity: .5;
 }
 
 aside{
