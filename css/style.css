@@ -355,6 +355,10 @@ aside a:hover{
     gap: 1vw;
 }
 
+.clubs a:hover{
+    opacity: .5;
+}
+
 .imgClub{
     max-width: 100%;
 }
