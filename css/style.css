@@ -29,7 +29,7 @@ a{
 }
 
 nav a{
-    font-weight: bold 700;
+    font-weight: bold;
     color:rgb(28, 28, 28);
     text-decoration: none;
 }
@@ -44,7 +44,7 @@ nav a:active{
 
 nav a.active{
     font-style: italic;
-    font-weight: bold 700;
+    font-weight: bold;
 }
 
 #red{
@@ -78,7 +78,7 @@ header nav li:nth-of-type(1){
     margin-right: 2vw;
 }
 
-button{
+a.button{
     background-color: rgb(155, 23, 0);
 	padding: 10px 25px;
 	color: rgb(255, 255, 255);
@@ -87,7 +87,7 @@ button{
     width: auto;
 }
 
-button:hover, input[type="submit"]:hover{
+a.button:hover, input[type="submit"]:hover{
     color: rgb(28, 28, 28);
 }
 
@@ -430,7 +430,7 @@ div.clubs p{
     float: left;
     margin-right: 1.5vw;
     border-radius: 50%;
-    shape-outside: circle( );
+    shape-outside: circle();
 }
 
 
@@ -443,6 +443,7 @@ iframe + p{
 iframe{
     width: 100%;
     height: 255px;
+    border: 0px;
 }
 
 
